@@ -12,6 +12,7 @@
     x:Class="FlyMe.Views.MyFlightsPage">
 
     <ContentPage.Resources>
+        <!--
         <StyleSheet>
             <![CDATA[
 
@@ -21,12 +22,13 @@
             }
             ]]>
         </StyleSheet>
+        -->
 
         <Style TargetType="Button"
                x:Key="BookingButton">
             <Setter Property="HeightRequest" Value="44"/>
             <Setter Property="CornerRadius" Value="22"/>
-            <Setter Property="HorizontalOptions" Value="LayoutOptions.Fill"/>
+            <Setter Property="HorizontalOptions" Value="Fill"/>
             <Setter Property="BackgroundColor" Value="OrangeRed"/>
             <Setter
                 Property="VisualStateManager.VisualStateGroups">
@@ -127,7 +129,7 @@
                 FontSize="14"/>
             </StackLayout>
     </xct:Expander.Header>
-                        
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="14"/>

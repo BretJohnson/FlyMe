@@ -251,6 +251,7 @@
     </Grid>
 
     <ContentPage.Resources>
+        <!--
         <StyleSheet>
             <![CDATA[
             .spacer-bar {
@@ -290,8 +291,8 @@
                 
             
             ]]>
-
         </StyleSheet>
+        -->
     </ContentPage.Resources>
 
 </ContentPage>
